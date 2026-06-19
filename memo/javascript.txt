@@ -23,3 +23,42 @@ JavaScript で、IE なら、処理を実行する 書き方
 "可変長引数" の読み方、別名・読み方、書き方（ 関数名：getFullName ）
 
 "引数の展開" の書き方、関数名 getFullName の書き方
+
+
+
+const cat = {
+  name: 'タマ',
+  age: 3,
+  color: 'black'
+}
+
+オブジェクトの name を参照する 書き方（２つ）
+
+
+
+const user = {
+  name: '山田 太郎',
+  age: 28,
+  hobby: '旅行'
+};
+
+userオブジェクトのプロパティ名・値を、繰り返し処理で取り出す 書き方
+
+
+for (const key in user) {
+  console.log(key, user[key]);
+}
+
+
+
+１番優先順位が高い演算子は？
+
+switch文 の書き方、== と === のどちらで判定されているか？
+
+"クラス" の書き方（ ゲッタ、セッタ、継承、オーバーライド ）
+
+Mapオブジェクト の書き方（ list ）
+
+Setオブジェクト の書き方（ list ）
+
+forEach()、every()、some()、map()、filter()、find()、findIndex、reduce() の書き方
